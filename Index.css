@@ -1,0 +1,123 @@
+
+html {
+    height: 100%;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+    background-color: #808080;
+    color: aliceblue;
+    font-size: 16px;
+    width: 100vw;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    width:100%;
+    background-color: #DF0024;
+}
+
+.main-header-wrapper {
+    display: flex;
+    width:1440px;
+    background-color: #DF0024;
+    margin: 0 auto;
+    gap: 30%;
+}
+
+.main-index {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.navigation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.navigation-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 100px;
+    margin: 0;
+}
+.navigation-item {
+ width: max-content;
+    
+}
+.navigation-link {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+.visually-hidden{
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.about-us {
+    display: flex;
+    background-color: black;
+}
+
+.contacts {
+    background-color: black;
+}
+
+.about-product {
+    display: flex;
+    background-color: black;
+}
+
+.contacts {
+    display: flex;
+}
+
+.shop-picture {
+    min-width: 720px;
+    height: 720px;
+    object-fit: cover;
+}
+
+.text {
+    width: 50%;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    padding: 125px 75px;
+    background-color: black;
+    align-self: center;
+}
+
+.main-footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #DF0024;
+}
+
+.main-footer-wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #DF0024;
+}
